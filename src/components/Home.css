@@ -39,7 +39,7 @@
   font-size: 22px;
   line-height: 27px;
   width: 52%;
-  margin-top: 10%;
+  margin-top: 25%;
   left: 0; 
   right: 0; 
   margin-left: auto; 
@@ -47,7 +47,7 @@
 }
 
 .Content {
-  background-color: white;
+  background-color: #FFEEEA;
   position: relative;
   width: 100%;
   margin: 0;
@@ -55,12 +55,17 @@
 }
 
 .Content img {
-  height: 200px;
+  height: 254px;
+}
+
+.Content img:hover {
+  background-color: #534741;
+  opacity: 0.4;
 }
 
 .Content__column {
     float: left;
-    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -10px 8px 0px rgba(0, 0, 0, 0.2);
     margin: 5% 4% 5% 0;
 }
 
@@ -149,12 +154,20 @@
   }
 
   .Banner__text {
-    font-size: 58px;
-    line-height: 63px;
-    width: 42%;
+    font-size: 58px !important;
+    line-height: 63px !important;
   }
 
   .Content__row {
     margin-left: 26%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Banner__text {
+    font-size: 34px;
+    line-height: 39px;
+    margin-top: 10%;
+    width: 42%;
   }
 }

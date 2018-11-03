@@ -10,16 +10,24 @@ class Content extends Component {
       <section className="Content">
         <div className="Content__row">
           <div className="Content__column">
-            <img src={about} alt="About"></img>
+            <a href="/about">
+              <img src={about} alt="About"></img>
+            </a>
           </div>
           <div className="Content__column">
-            <img src={work} alt="Work"></img>
+            <a href="/work">
+              <img src={work} alt="Work"></img>
+            </a>
           </div>
           <div className="Content__column">
-            <img src={blog} alt="Blog"></img>
+            <a href="/blog">
+              <img src={blog} alt="Blog"></img>
+            </a>
           </div>
           <div className="Content__column">
-            <img src={contact} alt="Contact"></img>
+            <a href="/contact">
+              <img src={contact} alt="Contact"></img>
+            </a>
           </div>
         </div>
       </section>

@@ -47,7 +47,7 @@ class Footer extends Component {
                 <a href='/privacy'>Privacy</a>
               </li>
               <li>
-                <a href='/privacy'>Terms and Condition</a>
+                <a href='/terms'>Terms and Condition</a>
               </li>
             </ul>
           </div>
