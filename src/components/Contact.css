@@ -1,0 +1,15 @@
+.Contact {
+  padding-top: 3%;
+}
+.Contact img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+}
+
+.Contact h1 {
+  font-family: 'Hind', sans-serif !important;
+  text-align: center;
+  line-height: 38px;
+}

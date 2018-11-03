@@ -1,0 +1,15 @@
+.Error {
+  padding-top: 3%;
+}
+.Error img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+}
+
+.Error h1 {
+  font-family: 'Hind', sans-serif !important;
+  text-align: center;
+  line-height: 38px;
+}
