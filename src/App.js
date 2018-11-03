@@ -17,6 +17,7 @@ class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/work" component={Work}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/blog" component={Contact}/>
             <Route path="/privacy" component={Privacy}/>
             <Route path="/terms" component={TermsAndCondition}/>
             <Route component={Error}/>
