@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './TermsAndCondition.css';
+import Footer from './Footer';
 
 class TermsAndCondition extends Component {
   render() {
     return (
+      <div>
       <div className="TermsAndCondition">
         <h1>Terms And Condition</h1>
         <p>These terms and conditions outline the rules and regulations for the use of Christine Manrique's Website.</p>
@@ -162,7 +164,9 @@ class TermsAndCondition extends Component {
         we will not be liable for any loss or damage of any nature.</p>
       <h2>Credit & Contact Information</h2>
         <p>This Terms and conditions page was created at <a href="https://termsandconditionstemplate.com">termsandconditionstemplate.com</a> generator. If you have
-        any queries regarding any of our terms, please contact us.</p>		
+        any queries regarding any of our terms, please contact us.</p>
+      </div>
+      <Footer></Footer>
       </div>
     );
   }

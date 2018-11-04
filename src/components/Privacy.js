@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './Privacy.css';
+import Footer from './Footer';
 
 class Privacy extends Component {
   render() {
     return (
+      <div>
       <div className="Privacy">
         <h1>Privacy Policy</h1>
         <p>Effective date: November 03, 2018</p>
@@ -91,6 +93,8 @@ class Privacy extends Component {
         
           <li>By phone number: 09958268824</li>
         </ul>
+      </div>
+      <Footer></Footer>
       </div>
     );
   }

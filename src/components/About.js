@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import underconstruction from '../assets/images/undraw_under_construction.png';
 import './About.css';
+import Footer from './Footer';
+import UnderConstruction from './UnderConstruction';
 
 class About extends Component {
   render() {
     return (
       <div className="About">
-        <h1>This site is still under construction. <br></br>Sorry for the inconvenience.</h1>
-        <img src={underconstruction} alt="Under Construction"></img>
+        <UnderConstruction></UnderConstruction>
+        <Footer></Footer>
       </div>
     );
   }
