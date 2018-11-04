@@ -35,8 +35,8 @@
   padding: 3%;
   font-family: 'Abril Fatface', cursive;
   text-align: center;
-  font-size: 4vw;
-  line-height: 4.5vw;
+  font-size: 5vw;
+  line-height: 5.5vw;
   width: 52%;
   margin-top: 25%;
   left: 0; 
@@ -71,7 +71,7 @@
 .Content__column {
     float: left;
     box-shadow: -10px -10px 8px 0px rgba(0, 0, 0, 0.2);
-    margin: 5% 4% 5% 0;
+    margin: 5% 4% 2% 0;
 }
 
 .Content__row::after {
@@ -95,6 +95,11 @@
 
   .Content {
     padding: 0;
+  }
+
+  .Content img {
+    max-height: 280px;
+    max-width: 400px;
   }
 }
 
