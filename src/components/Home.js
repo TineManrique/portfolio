@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Banner from './Banner';
 import Footer from './Footer';
 import Content from './Content';
-import './Home.css';
+import './Home.scss';
 
 class Home extends Component {
   render() {

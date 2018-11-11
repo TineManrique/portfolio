@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import underconstruction from '../assets/images/undraw_under_construction.png';
-import './UnderConstruction.css';
+import './UnderConstruction.scss';
 
 class UnderConstruction extends Component {
   render() {

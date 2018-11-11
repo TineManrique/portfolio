@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Work.css';
+import './Work.scss';
 import Footer from './Footer';
 import UnderConstruction from './UnderConstruction';
 

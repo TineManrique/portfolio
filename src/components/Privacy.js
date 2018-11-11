@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Privacy.css';
+import './Privacy.scss';
 import Footer from './Footer';
 
 class Privacy extends Component {

@@ -1,20 +1,24 @@
 import React, {Component} from 'react';
-import Async from 'react-code-splitting';
+// import Async from 'react-code-splitting';
 import {Route, Switch, withRouter} from 'react-router-dom';
 
-const About = () => (<Async load={import('./components/About')}/>);
-const Contact = () => (<Async load={import('./components/Contact')}/>);
-const Home = () => (<Async load={import('./components/Home')}/>);
-const Error404 = () => (<Async load={import('./components/Error')}/>);
+// const About = () => (<Async load={import('./components/About')}/>);
+// const Contact = () => (<Async load={import('./components/Contact')}/>);
+// const Home = () => (<Async load={import('./components/Home')}/>);
+// const Error404 = () => (<Async load={import('./components/Error')}/>);
+const About = () => (
+      <div>
+         <h1>Hello world!!</h1>
+      </div>
+    );
+
+const Home = () => (
+  <div>
+      <h1>Home</h1>
+  </div>
+);
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showNav: true
-    };
-  }
-
   render() {
     return (
       <div>
@@ -25,10 +29,6 @@ class Main extends Component {
           <Route exact path={'/about'}>
             <About/>
           </Route>
-          <Route exact path={'/contact'}>
-            <Contact/>
-          </Route>
-          <Route component={Error404}/>
         </Switch>
       </div>
     );

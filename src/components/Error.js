@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import lost from '../assets/images/undraw_lost.png';
-import './Error.css';
+import './Error.scss';
 import Footer from './Footer';
 
 class Error extends Component {
