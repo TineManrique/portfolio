@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
@@ -24,19 +25,19 @@ class Footer extends Component {
             <p>Navigation</p>
               <ul>
                 <li>
-                  <a href='/'>Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="/about">About Her</a>
+                  <Link to="/about">About Her</Link>
                 </li>
                 <li>
-                  <a href="/work">Work</a>
+                  <Link to="/work">Work</Link>
                 </li>
                 <li>
-                  <a href="/contact">Get In Touch</a>
+                  <Link to="/contact">Get In Touch</Link>                  
                 </li>
                 <li>
-                  <a href='/blog'>Blog</a>
+                  <Link to='/blog'>Blog</Link>
                 </li>
               </ul>
           </div>
@@ -44,10 +45,10 @@ class Footer extends Component {
             <p>Legals</p>
             <ul>
               <li>
-                <a href='/privacy'>Privacy</a>
+                <Link to='/privacy'>Privacy</Link>
               </li>
               <li>
-                <a href='/terms'>Terms and Condition</a>
+                <Link to='/terms'>Terms and Condition</Link>
               </li>
             </ul>
           </div>

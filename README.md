@@ -1,3 +1,16 @@
+## Deploying the App
+
+(1) Create your project in the firebase console and go to hosting
+(2) Install firebase on your repo by running `npm install -g firebase tools`
+(3) Run `firebase login` to access google account
+(4) Run `firebase init` to initialize firebase configuration
+- cli features
+- default project
+- public directory? dist for angular and build for react app since upon building the prod version, it is located on a dist folder
+(5) Generate dist folder by running `ng build --prod` for angular and `npm run build` for this react app
+(6) To deploy, run `firebase deploy`
+(7) To open url hosting, `firebase opn hosting:site`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2565,3 +2578,5 @@ If you're seeing this error, you're likely using an old version of `react-script
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebook/create-react-app/issues) or [contribute some!](https://github.com/facebook/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+

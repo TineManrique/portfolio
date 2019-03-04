@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
@@ -11,18 +11,18 @@ import Error from './components/Error';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <Switch>
+      <Router>
+          <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/work" component={Work}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/blog" component={Contact}/>
-            <Route path="/privacy" component={Privacy}/>
-            <Route path="/terms" component={TermsAndCondition}/>
-            <Route component={Error}/>
-        </Switch>
-      </BrowserRouter>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/work" component={Work}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/blog" component={Contact}/>
+            <Route exact path="/privacy" component={Privacy}/>
+            <Route exact path="/terms" component={TermsAndCondition}/>
+            <Route exact component={Error}/>
+          </Switch>
+      </Router>
     );
   }
 }

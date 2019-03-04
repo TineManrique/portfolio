@@ -3,6 +3,7 @@ import about from '../assets/images/undraw_resume.png';
 import work from '../assets/images/undraw_work.png';
 import blog from '../assets/images/undraw_blog.png';
 import contact from '../assets/images/undraw_contact.png';
+import { Link } from 'react-router-dom';
 
 class Content extends Component {
   render() {
@@ -10,24 +11,24 @@ class Content extends Component {
       <section className="Content">
         <div className="Content__row">
           <div className="Content__column">
-            <a href="/about">
+            <Link to="/about">
               <img src={about} alt="About"></img>
-            </a>
+            </Link>
           </div>
           <div className="Content__column">
-            <a href="/work">
+            <Link to="/work">
               <img src={work} alt="Work"></img>
-            </a>
+            </Link>
           </div>
           <div className="Content__column">
-            <a href="/blog">
+            <Link to="/blog">
               <img src={blog} alt="Blog"></img>
-            </a>
+            </Link>
           </div>
           <div className="Content__column">
-            <a href="/contact">
+            <Link to="/contact">
               <img src={contact} alt="Contact"></img>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
